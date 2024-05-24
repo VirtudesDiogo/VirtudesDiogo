@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Força - Seven Gym Luanda</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+            <a href="seven1.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="seven1.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <h1>APTIDÃO Física</h1>
+            <p>
+                Através de uma combinação de rotinas de exercícios e orientação especializada,
+            capacitá-lo a alcançar seus objetivos.
+            </p>
+            <button class="btn">Entrar <i class="ri-arrow-right-line"></i></button>
+            <img src="img/aptidao.png" alt="class" class="class__img-2" />
+        </div>
+    </header>
+    <section class="section__container price__container">
+        <h2 class="section__header">NOSSA POLÍTICA DE PREÇO</h2>
+        <p class="section__subheader">
+          Nosso plano de preços vem com vários níveis de associação, cada um adaptado para
+          atender a diferentes preferências e aspirações de condicionamento físico.</p>
+        <div class="price__grid">
+          <div class="price__card">
+            <div class="price__card__content">
+              <h4>Plano Básico</h4>
+              <h3>Kz 18,000.00</h3>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Plano de treino elegante
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Sessão de treino em casa
+              </p>
+            </div>
+            <button class="btn price__btn">Comprar Agora</button>
+          </div>
+          <div class="price__card">
+            <div class="price__card__content">
+              <h4>Plano Semanal</h4>
+              <h3>Kz 25,000.00</h3>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                PRO Gyms
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Plano de treino elegante
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Sessão de treino em casa
+              </p>
+            </div>
+            <button class="btn price__btn">Comprar Agora</button>
+          </div>
+          <div class="price__card">
+            <div class="price__card__content">
+              <h4>Plano Mensal</h4>
+              <h3>Kz 45,000.00</h3>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                ELITE Gyms & Classes
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                PRO Gyms
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Plano de treino elegante
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Sessão em casa
+              </p>
+              <p>
+                <i class="ri-checkbox-circle-line"></i>
+                Personal Trainer
+              </p>
+            </div>
+            <button  class="btn price__btn">Comprar Agora</button>
+          </div>
+        </div>
+      </section>
+  
+    <footer class="section__container footer__container">
+        <span class="bg__blur"></span>
+        <span class="bg__blur footer__blur"></span>
+        <div class="footer__col">
+            <div class="footer__logo"><img src="img/logo.png" alt="logo"></div>
+            <p>
+                Dê o primeiro passo em direção a uma pessoa mais saudável e forte com nossos planos de preços imbatíveis. Vamos suar, alcançar e conquistar juntos!
+            </p>
+            <div class="footer__socials">
+                <a target="_blank" href="https://www.facebook.com/pao.delicia14"><i class="ri-facebook-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/pao.delicia14"><i class="ri-instagram-line"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@pao.delicia14"><i class="ri-tiktok-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <h4>Empresas</h4>
+            <a href="negocio.html">Negócio</a>
+            <a href="#">Franquia</a>
+            <a href="#">Parceria</a>
+            <a href="#">Rede</a>
+        </div>
+        <div class="footer__col">
+            <h4 id="Sobre">Sobre Nós</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Segurança</a>
+            <a href="#">Careiras</a>
+        </div>
+        <div class="footer__col">
+            <h4>Contacto</h4>
+            <a href="#">Contactos</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos & Condições</a>
+            <a href="#">Calculadora BMI</a>
+        </div>
+    </footer>
+    <div class="footer__bar">
+        Copyright © 2023 Virtudes Diogo. Todos direitos reservados.
+    </div>
+</body>
+</html>

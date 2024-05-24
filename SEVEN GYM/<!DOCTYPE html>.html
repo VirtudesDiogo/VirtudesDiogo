@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEVEN GYM LUANDA</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Estilo para o carrossel de imagens */
+        .carousel-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: mandatory;
+            -webkit-overflow-scrolling: touch; /* Suporte para scroll suave em iOS */
+        }
+
+        .carousel-image {
+            flex: 0 0 auto;
+            width: 100%; /* Imagens ocupam 50% da largura do container */
+            scroll-snap-align: play;
+        }
+    </style>
+</head>
+<body>
+    <div class="secao topo">
+        <img src="img/logo.png" alt="Seven Gym Luanda">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <p class="paragrafo paragrafo-topo">
+            <a class="link-topo" href="#sobre">Sobre</a>
+            <a class="link-topo" href="#servicos">Serviços</a>
+            <a class="link-topo" href="#personal">Personal</a>
+            <a class="link-topo" href="#localizacao">Localização</a>
+            <a class="link-topo" href="#contato">Contato</a>
+        </p>
+    </div>
+    <div class="secao banner">
+        <img src="img/banner.jpg" alt="Seven gym post">
+    </div>
+    <div id="sobre" class="secao">
+        <h1><span class="texto-vermelho">Conheça</span></h1>
+        <h2>MIGUEL PEDROTO</h2>
+        <img class="imagem" src="img/miguel-pedroto.jpg" alt="Miguel Pedroto">
+        <p class="paragrafo paragrafo-sobre">
+            Miguel Pedroto formado em Gestão de Empresas e Gestão de Recursos Humanos, manteve sempre um paralelo entre área empresarial e sua paixão pelo desporto.
+
+            Durante a sua formação académica praticou atletismo, especializando-se na distância de 200 e 400 metros.
+
+            Após terminar a faculdade e iniciar o seu percurso empresarial, tirou por prazer e por ser um apaixonado pelo desporto várias formações de fitness destacando-se o IFI - Internacional Instructor Of Fitness. Pela manhã e ao final do dia após o seu dia laboral, corria para os ginásios ou Health Clubs para dar aulas de grupo ou cumprir os seus compromissos com diferentes alunos como seu Personal Trainer.
+        </p>
+    </div>
+    <div id="servicos" class="secao servicos">
+        <h3>SERVIÇOS</h3>
+        <p class="paragrafo paragrafo-servicos">
+            Contamos com diversos <span class="texto-amarelo">serviços fitness</span> e também prestamos suporte em cada uma das etapas necessárias de cada serviço. Aqui na <span class="texto-amarelo">Seven Gym Luanda</span> podemos te ajudar com a seguinte gama de assuntos relativos a fitness:
+        </p>
+        <ul class="lista-servicos">
+            <li class="item-lista-servicos">Highperformance</li>
+            <li class="item-lista-servicos">Crossleg</li>
+            <li class="item-lista-servicos">Airbike Class</li>
+            <li class="item-lista-servicos">Ergoarmour</li>
+        </ul>
+    </div>
+    <div id="personal" class="secao">
+        <h3 class="texto-vermelho">Personal Trainer</h3>
+        <h4>SEVEN GYM LUANDA</h4>
+        <div class="carousel-container">
+            <img class="carousel-image" src="img/personal-trainer1.jpg" alt="Personal Trainer">
+            <img class="carousel-image" src="img/personal-trainer2.jpg" alt="Personal Trainer">
+            <img class="carousel-image" src="img/personal-trainer3.jpg" alt="Personal Trainer">
+        </div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100063498462762%2Fvideos%2F610963384089822%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <p class="paragrafo">
+            A <span class="texto-vermelho">Seven Gym Luanda</span> conta com um time de profissionais qualificados que têm vários anos de experiência no mercado. Para entrar em contato com um de nossos coachs, basta clicar no link a seguir: <a class="link" href="mailto:info@sevengym.com">Personal</a>
+        </p>
+    </div>
+    <div id="localizacao" class="secao contato">
+        <h3>LOCALIZAÇÃO</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.5900969386994!2d13.23291797422947!3d-8.824522391228864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f3b3c88a3d17%3A0xd5075fdd79252c87!2sSeven%20Gymn!5e0!3m2!1spt-PT!2sao!4v1710018867022!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="paragrafo paragrafo-contato">
+            Se ficou interessado em nos conhecer ou se tiver dúvidas entre em <span class="texto-amarelo">contato</span> conosco através de um dos telefones abaixo:
+        </p>
+        <ul class="lista-contato">
+            <li class="item-lista-contato">
+                <a class="link-contato" href="mailto:virtudesdiogo24@gmail.com">Programador Web</a>
+            </li>
+            <li class="item-lista-contato">
+                <a class="link-contato" href="tel:+244928402129">Seven Gym Ingombotas</a>
+            </li>
+            <li class="item-lista-contato">
+                <a class="link-contato" href="mailto:officemeier@email.com">Escritório Méier</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div class="formulario-centro">
+        <div class="formulario">
+            <form action="" method="post" id="contato">
+                <fieldset>
+                    <h1>ENVIA-NOS UMA MENSAGEM</h1>
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Digite o seu nome..." name="nome" required><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Digite o seu E-mail..." name="email" required><br>
+                    <label for="Assunto">Assunto:</label>
+                    <input type="text" placeholder="Informe..." required><br>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea name="Mensagem" id="Mensagem" cols="40" rows="9" placeholder="Escreva Aqui..." required></textarea><br>
+                    <button type="button" onclick="submitForm()" class="botao">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="direitos">
+        <p>&copy; Feito por Virtudes Diogo, Todos os direitos reservados!</p>
+    </div>
+
+    <script>
+        // Carrossel automático
+        let carouselTimer = setInterval(nextImage, 3000); // Altera a imagem a cada 3 segundos
+
+        function nextImage() {
+            const container = document.querySelector('.carousel-container');
+            container.scrollBy({ left: container.clientWidth, behavior: 'smooth' });
+        }
+
+        // Pausa o carrossel quando o usuário interage com ele
+        const carouselContainer = document.querySelector('.carousel-container');
+
+        carouselContainer.addEventListener('pointerdown', () => {
+            clearInterval(carouselTimer); // Pausa o carrossel
+        });
+
+        carouselContainer.addEventListener('pointerup', () => {
+            carouselTimer = setInterval(nextImage, 3000); // Reinicia o carrossel após interação
+        });
+
+        // Função fictícia para enviar formulário
+        function submitForm() {
+            // Aqui você pode adicionar código para enviar o formulário
+            alert('Mensagem enviada com sucesso!');
+        }
+    </script>
+</body>
+</html>
